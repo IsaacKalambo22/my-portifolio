@@ -43,7 +43,7 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
     github: "https://github.com/isaackalambo",
     demo: "https://example.com",
-    image: "/images/2.jpg",
+    image: "/images/3.jpg",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const projects = [
     technologies: ["React", "Chart.js", "OpenWeather API", "CSS3"],
     github: "https://github.com/isaackalambo",
     demo: "https://example.com",
-    image: "/images/2.jpg",
+    image: "/images/3.jpg",
   },
 ];
 

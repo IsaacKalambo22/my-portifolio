@@ -29,8 +29,8 @@ export default function AboutPage() {
                   priority
                 />
                 {/* Decorative elements */}
-                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 -z-10"></div>
-                <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full opacity-20 -z-10"></div>
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-r from-primary to-purple-600 rounded-full opacity-20 -z-10"></div>
+                <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-r from-primary to-purple-600 rounded-full opacity-20 -z-10"></div>
               </div>
             </div>
             
@@ -51,19 +51,19 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold">What I Love</h3>
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                     Building scalable web applications
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                     Learning new technologies
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                     Solving complex problems
                   </li>
                   <li className="flex items-center">
-                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
+                    <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                     Collaborating with teams
                   </li>
                 </ul>

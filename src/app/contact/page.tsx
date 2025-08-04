@@ -26,7 +26,7 @@ export default function ContactPage() {
                 <div className="space-y-4">
                   <Card>
                     <CardContent className="flex items-center p-6">
-                      <Mail className="h-6 w-6 text-blue-600 mr-4" />
+                      <Mail className="h-6 w-6 text-primary mr-4" />
                       <div>
                         <h3 className="font-semibold">Email</h3>
                         <p className="text-muted-foreground">{personalInfo.email}</p>
@@ -36,7 +36,7 @@ export default function ContactPage() {
                   
                   <Card>
                     <CardContent className="flex items-center p-6">
-                      <MapPin className="h-6 w-6 text-blue-600 mr-4" />
+                      <MapPin className="h-6 w-6 text-primary mr-4" />
                       <div>
                         <h3 className="font-semibold">Location</h3>
                         <p className="text-muted-foreground">Remote / Available Worldwide</p>
@@ -46,7 +46,7 @@ export default function ContactPage() {
                   
                   <Card>
                     <CardContent className="flex items-center p-6">
-                      <Phone className="h-6 w-6 text-blue-600 mr-4" />
+                      <Phone className="h-6 w-6 text-primary mr-4" />
                       <div>
                         <h3 className="font-semibold">Availability</h3>
                         <p className="text-muted-foreground">Available for freelance & full-time</p>

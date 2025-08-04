@@ -31,8 +31,8 @@ export default function SkillsPage() {
                       key={skill}
                       className="text-muted-foreground flex items-center"
                     >
-                      <span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span>
-                      {skill}
+                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                      {skill} 
                     </li>
                   ))}
                 </ul>

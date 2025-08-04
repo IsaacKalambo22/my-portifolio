@@ -21,15 +21,15 @@ export default function Hero() {
                 className="rounded-full object-cover shadow-xl"
                 priority
               />
-              <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 -z-10"></div>
-              <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full opacity-20 -z-10"></div>
+              <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-r from-primary to-primary-600 rounded-full opacity-20 -z-10"></div>
+              <div className="absolute -bottom-4 -left-4 w-20 h-20 bg-gradient-to-r from-primary to-primary-600 rounded-full opacity-20 -z-10"></div>
             </div>
           </div>
 
           {/* Hero Content */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             Hi, I&apos;m{' '}
-            <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-primary-600 bg-clip-text text-transparent">
               {personalInfo.name}
             </span>
           </h1>
@@ -44,7 +44,7 @@ export default function Hero() {
 
           {/* Call to Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button asChild size="lg" className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700">
+            <Button asChild size="lg" className="bg-gradient-to-r from-primary to-primary-600 hover:from-primary hover:to-primary-700">
               <Link href="/projects">View My Work</Link>
             </Button>
             <Button asChild variant="outline" size="lg">

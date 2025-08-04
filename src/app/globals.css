@@ -5,8 +5,8 @@
 
 @theme inline {
 --color-background: var(--background);
-  --logo-primary: oklch(0.208 0.042 265.755); /* Set this to your logo's primary color */
-  --logo-secondary: oklch(0.929 0.013 255.508); /* Set this to a complementary color if needed */
+   --color-primary: #05afed;
+  /* Set this to a complementary color if needed */
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -53,7 +53,7 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
+  --primary: #05afed;
   --primary-foreground: oklch(0.984 0.003 247.858);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
