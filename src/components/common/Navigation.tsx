@@ -12,6 +12,10 @@ import { personalInfo, navigationItems } from '@/lib/constants';
 export default function Navigation() {
   const pathname = usePathname();
 
+  const isActiveLink = (href: string) => {
+    return pathname === href;
+  };
+
   return (
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -32,7 +36,7 @@ export default function Navigation() {
                 key={item.name}
                 href={item.href}
                 className={`transition-colors ${
-                  pathname === item.href
+                  isActiveLink(item.href)
                     ? "text-primary font-medium"
                     : "text-muted-foreground hover:text-primary"
                 }`}
@@ -55,7 +59,7 @@ export default function Navigation() {
                     key={item.name}
                     href={item.href}
                     className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                      pathname === item.href
+                      isActiveLink(item.href)
                         ? "text-primary font-medium bg-primary/10"
                         : "text-muted-foreground hover:text-primary"
                     }`}
