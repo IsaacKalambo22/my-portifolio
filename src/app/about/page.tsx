@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Layout } from '@/components';
 import { personalInfo } from '@/lib/constants';
 
@@ -17,8 +18,20 @@ export default function AboutPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="w-full h-96 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg mb-6"></div>
+            <div className="flex justify-center">
+              <div className="relative">
+                <Image
+                  src={personalInfo.profileImage}
+                  alt="Isaac Kalambo"
+                  width={350}
+                  height={400}
+                  className="rounded-lg object-cover shadow-xl"
+                  priority
+                />
+                {/* Decorative elements */}
+                <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full opacity-20 -z-10"></div>
+                <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-r from-purple-500 to-indigo-600 rounded-full opacity-20 -z-10"></div>
+              </div>
             </div>
             
             <div className="space-y-6">

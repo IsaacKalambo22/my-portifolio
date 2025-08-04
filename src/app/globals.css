@@ -4,7 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-background: var(--background);
+--color-background: var(--background);
+  --logo-primary: oklch(0.208 0.042 265.755); /* Set this to your logo's primary color */
+  --logo-secondary: oklch(0.929 0.013 255.508); /* Set this to a complementary color if needed */
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -15,8 +16,15 @@ export default function Navigation() {
     <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-xl font-bold hover:text-primary transition-colors">
-            {personalInfo.name}
+          <Link href="/" className="flex items-center space-x-2 text-xl font-bold hover:text-primary transition-colors">
+            <Image
+              src={personalInfo.logo}
+              alt="Isaac Kalambo Logo"
+              width={52}
+              height={52}
+              className="rounded"
+            />
+            <span>{personalInfo.name}</span>
           </Link>
           <div className="hidden md:flex space-x-8">
             {navigationItems.map((item) => (

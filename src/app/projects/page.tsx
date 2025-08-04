@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { Layout, Button, Card, CardContent, CardDescription, CardHeader, CardTitle, Badge } from '@/components';
 import { Github, ExternalLink } from 'lucide-react';
 import { projects } from '@/lib/constants';
@@ -20,7 +21,15 @@ export default function ProjectsPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-blue-500 to-purple-600"></div>
+                <div className="relative h-48 overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={400}
+                    height={200}
+                    className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription>{project.description}</CardDescription>

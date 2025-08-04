@@ -5,6 +5,8 @@ export const personalInfo = {
   bio: "Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code.",
   about: "I'm a passionate full-stack developer with expertise in modern web technologies. I love building scalable applications and learning new technologies to solve complex problems.",
   initials: "IK",
+  logo: "/images/logo.png",
+  profileImage: "/images/1.JPG",
 };
 
 export const socialLinks = [
@@ -41,6 +43,7 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
     github: "https://github.com/isaackalambo",
     demo: "https://example.com",
+    image: "/images/2.jpg",
   },
   {
     id: 2,
@@ -49,6 +52,7 @@ export const projects = [
     technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
     github: "https://github.com/isaackalambo",
     demo: "https://example.com",
+    image: "/images/3.jpg",
   },
   {
     id: 3,
@@ -57,6 +61,7 @@ export const projects = [
     technologies: ["React", "Chart.js", "OpenWeather API", "CSS3"],
     github: "https://github.com/isaackalambo",
     demo: "https://example.com",
+    image: "/images/2.jpg",
   },
 ];
 
