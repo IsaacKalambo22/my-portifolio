@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { personalInfo } from '@/lib/constants/data';
@@ -26,14 +27,14 @@ export default function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
-              <a href="#projects">
+              <Link href="/projects">
                 View My Work
-              </a>
+              </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="#contact">
+              <Link href="/contact">
                 Get In Touch
-              </a>
+              </Link>
             </Button>
           </div>
         </div>
