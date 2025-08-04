@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Isaac Kalambo",
   role: "Full Stack Developer",
-  email: "isaac@example.com",
+  email: "kalamboisaac405@gmail.com",
   bio: "Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code.",
   about: "I'm a passionate full-stack developer with expertise in modern web technologies. I love building scalable applications and learning new technologies to solve complex problems.",
   initials: "IK",
@@ -12,17 +12,17 @@ export const personalInfo = {
 export const socialLinks = [
   {
     name: "GitHub",
-    url: "https://github.com/isaackalambo",
+    url: "https://github.com/IsaacKalambo22",
     icon: "Github"
   },
   {
     name: "LinkedIn", 
-    url: "https://linkedin.com/in/isaackalambo",
+    url: "https://www.linkedin.com/in/isaac-kalambo-973bba339/",
     icon: "Linkedin"
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/isaackalambo", 
+    url: "https://x.com/IsaacKalam44251", 
     icon: "Twitter"
   }
 ];
@@ -41,7 +41,7 @@ export const projects = [
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution built with Next.js, TypeScript, and Stripe integration.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "Prisma"],
-    github: "https://github.com/isaackalambo",
+    github: "https://github.com/IsaacKalambo22",
     demo: "https://example.com",
     image: "/images/3.jpg",
   },
@@ -50,7 +50,7 @@ export const projects = [
     title: "Task Management App",
     description: "A collaborative task management application with real-time updates and team collaboration features.",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
-    github: "https://github.com/isaackalambo",
+    github: "https://github.com/IsaacKalambo22",
     demo: "https://example.com",
     image: "/images/3.jpg",
   },
@@ -59,7 +59,7 @@ export const projects = [
     title: "Weather Dashboard",
     description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
     technologies: ["React", "Chart.js", "OpenWeather API", "CSS3"],
-    github: "https://github.com/isaackalambo",
+    github: "https://github.com/IsaacKalambo22",
     demo: "https://example.com",
     image: "/images/3.jpg",
   },

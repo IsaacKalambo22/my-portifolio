@@ -121,7 +121,7 @@ export default function Contact() {
               
               <Button className="w-full">
                 Send Message
-              </Button>
+              </Button> 
             </CardContent>
           </Card>
         </div>
