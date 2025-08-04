@@ -1,11 +1,9 @@
 import React from 'react';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { Separator } from '@/components/ui/separator';
-import { Github, ExternalLink, Mail, Linkedin, Twitter, Menu } from 'lucide-react';
+import { Github, ExternalLink, Menu } from 'lucide-react';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
 const projects = [
@@ -75,16 +73,16 @@ export default function Home() {
               </SheetTrigger>
               <SheetContent>
                 <div className="flex flex-col space-y-6 mt-8">
-                  <a href="#about" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="#about" className="block px-3 py-2 rounded-md text-base font-medium text-muted-foreground hover:text-primary transition-colors">
                     About
                   </a>
-                  <a href="#projects" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="#projects" className="block px-3 py-2 rounded-md text-base font-medium text-muted-foreground hover:text-primary transition-colors">
                     Projects
                   </a>
-                  <a href="#skills" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="#skills" className="block px-3 py-2 rounded-md text-base font-medium text-muted-foreground hover:text-primary transition-colors">
                     Skills
                   </a>
-                  <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="#contact" className="block px-3 py-2 rounded-md text-base font-medium text-muted-foreground hover:text-primary transition-colors">
                     Contact
                   </a>
                 </div>
@@ -106,7 +104,7 @@ export default function Home() {
               </Avatar>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
                 Isaac Kalambo
               </span>
@@ -139,7 +137,7 @@ export default function Home() {
               About Me
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              I'm a passionate full-stack developer with expertise in modern web technologies.
+              I&apos;m a passionate full-stack developer with expertise in modern web technologies.
               I love building scalable applications and learning new technologies to solve complex problems.
             </p>
           </div>
@@ -251,8 +249,8 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              I'm always interested in new opportunities and collaborations.
-              Feel free to reach out if you'd like to work together!
+              I&apos;m always interested in new opportunities and collaborations.
+              Feel free to reach out if you&apos;d like to work together!
             </p>
           </div>
           
