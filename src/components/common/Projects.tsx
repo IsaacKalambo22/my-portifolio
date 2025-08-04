@@ -20,13 +20,13 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <Card key={project.id} className="overflow-hidden hover:shadow-xl transition-shadow">
-              <div className="relative overflow-hidden">
+              <div className="relative overflow-hidden h-48">
                 <Image
                   src={project.image}
                   alt={project.title}
-                  width={100}
-                  height={50}
-                  className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
+                  width={400}
+                  height={300}
+                  className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"             
                 />
               </div>
               <CardHeader>

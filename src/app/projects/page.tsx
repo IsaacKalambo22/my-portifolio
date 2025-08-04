@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Projects } from '@/components';
+import { Projects } from '@/components';
 
 export default function ProjectsPage() {
   return (
