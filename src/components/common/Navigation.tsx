@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu } from 'lucide-react';
-import { personalInfo, navigationItems } from '@/lib/constants/data';
+import { personalInfo, navigationItems } from '@/lib/constants';
 
 export default function Navigation() {
   const pathname = usePathname();

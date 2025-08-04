@@ -1,9 +1,7 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle, Badge } from '@/components/ui';
 import { Github, ExternalLink } from 'lucide-react';
-import { projects } from '@/lib/constants/data';
+import { projects } from '@/lib/constants';
 
 export default function Projects() {
   return (

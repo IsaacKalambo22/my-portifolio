@@ -1,11 +1,7 @@
 import React from 'react';
-import Layout from '@/components/Layout';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import { Layout, Button, Card, CardContent, CardHeader, CardTitle, Input, Textarea } from '@/components';
 import { Mail, MapPin, Phone } from 'lucide-react';
-import { personalInfo, socialLinks } from '@/lib/constants/data';
+import { personalInfo, socialLinks } from '@/lib/constants';
 
 export default function ContactPage() {
   return (

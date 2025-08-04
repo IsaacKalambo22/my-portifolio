@@ -1,10 +1,7 @@
 import React from 'react';
-import Layout from '@/components/Layout';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
+import { Layout, Button, Card, CardContent, CardDescription, CardHeader, CardTitle, Badge } from '@/components';
 import { Github, ExternalLink } from 'lucide-react';
-import { projects } from '@/lib/constants/data';
+import { projects } from '@/lib/constants';
 
 export default function ProjectsPage() {
   return (

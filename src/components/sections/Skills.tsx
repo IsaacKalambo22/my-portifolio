@@ -1,5 +1,5 @@
 import React from 'react';
-import { skills } from '@/lib/constants/data';
+import { skills } from '@/lib/constants';
 
 export default function Skills() {
   return (

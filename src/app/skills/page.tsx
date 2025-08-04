@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '@/components/Layout';
-import { skills } from '@/lib/constants/data';
+import { Layout } from '@/components';
+import { skills } from '@/lib/constants';
 
 export default function SkillsPage() {
   return (

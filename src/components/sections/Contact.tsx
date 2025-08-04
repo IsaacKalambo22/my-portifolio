@@ -1,5 +1,5 @@
 import React from 'react';
-import { personalInfo, socialLinks } from '@/lib/constants/data';
+import { personalInfo, socialLinks } from '@/lib/constants';
 
 export default function Contact() {
   return (

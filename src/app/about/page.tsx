@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '@/components/Layout';
-import { personalInfo } from '@/lib/constants/data';
+import { Layout } from '@/components';
+import { personalInfo } from '@/lib/constants';
 
 export default function AboutPage() {
   return (

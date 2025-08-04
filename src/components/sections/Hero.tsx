@@ -1,8 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { Button } from '@/components/ui/button';
-import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { personalInfo } from '@/lib/constants/data';
+import { Button, Avatar, AvatarFallback } from '@/components/ui';
+import { personalInfo } from '@/lib/constants';
 
 export default function Hero() {
   return (
