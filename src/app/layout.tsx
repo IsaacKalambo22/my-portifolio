@@ -16,8 +16,58 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Isaac Kalambo - Full Stack Developer",
-  description: "Full Stack Developer specializing in modern web technologies. Explore my projects and experience.",
+  title: {
+    default: "Isaac Kalambo - Full Stack Developer",
+    template: "%s | Isaac Kalambo"
+  },
+  description: "Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code. Explore my projects, skills, and experience.",
+  keywords: ["Full Stack Developer", "React", "Next.js", "TypeScript", "Node.js", "Web Development", "Portfolio"],
+  authors: [{ name: "Isaac Kalambo" }],
+  creator: "Isaac Kalambo",
+  publisher: "Isaac Kalambo",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL('https://isaackalambo.com'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://isaackalambo.com',
+    title: 'Isaac Kalambo - Full Stack Developer',
+    description: 'Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code.',
+    siteName: 'Isaac Kalambo Portfolio',
+    images: [
+      {
+        url: '/images/logo.png',
+        width: 1200,
+        height: 630,
+        alt: 'Isaac Kalambo - Full Stack Developer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Isaac Kalambo - Full Stack Developer',
+    description: 'Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code.',
+    images: ['/images/logo.png'],
+    creator: '@isaackalambo',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({

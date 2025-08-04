@@ -7,7 +7,7 @@ export default function About() {
     <section id="about" className="py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary ">
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
