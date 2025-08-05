@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-gray-100">
-            © {currentYear} {personalInfo.name}. Built with Next.js and Tailwind CSS.
+            © {currentYear} {personalInfo.name}. All rights reserved.
           </p>
         </div>
       </div>
