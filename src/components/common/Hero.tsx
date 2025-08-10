@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import { personalInfo, socialLinks } from '@/lib/constants';
 
 export default function Hero() {
@@ -64,7 +64,7 @@ export default function Hero() {
               >
                 {link.icon === 'Github' && <Github className="h-6 w-6" />}
                 {link.icon === 'Linkedin' && <Linkedin className="h-6 w-6" />}
-                {link.icon === 'Twitter' && <Mail className="h-6 w-6" />}
+                {link.icon === 'Twitter' && <Twitter className="h-6 w-6" />}
                 <span className="sr-only">{link.name}</span>
               </a>
             ))}
