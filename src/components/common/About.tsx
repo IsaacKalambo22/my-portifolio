@@ -1,8 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { personalInfo, education, experience } from '@/lib/constants';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui';
-import { Briefcase, GraduationCap, MapPin } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle, Button } from '@/components/ui';
+import { Briefcase, GraduationCap, MapPin, Download } from 'lucide-react';
 
 export default function About() {
   return (
@@ -48,6 +49,15 @@ export default function About() {
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="h-5 w-5 text-primary" />
               <span>{personalInfo.location}</span>
+            </div>
+
+            <div className="pt-6">
+              <Button asChild className="bg-gradient-to-r from-primary to-primary-600 hover:from-primary hover:to-primary-700">
+                <Link href="/resume.pdf" target="_blank" className="flex items-center gap-2">
+                  <Download className="h-4 w-4" />
+                  Download Resume
+                </Link>
+              </Button>
             </div>
           </div>
         </div>

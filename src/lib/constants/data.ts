@@ -144,7 +144,7 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
     github: "https://github.com/IsaacKalambo22/CarHub",
     demo: "https://github.com/IsaacKalambo22/CarHub",
-    image: "/images/3.jpg",
+    image: "/images/cars.png",
     featured: false,
     category: "Automotive"
   },
@@ -155,7 +155,7 @@ export const projects = [
     technologies: ["Flutter", "Dart", "Firebase", "REST API"],
     github: "https://github.com/IsaacKalambo22/Job_finder_app",
     demo: "https://github.com/IsaacKalambo22/Job_finder_app",
-    image: "/images/3.jpg",
+    image: "/images/finder.jpg",
     featured: false,
     category: "Mobile App"
   }

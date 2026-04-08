@@ -17,14 +17,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Isaac Kalambo - Full Stack Developer",
-    template: "%s | Isaac Kalambo"
+    default: "Isaac Alex Kalambo - Software Developer & IT Specialist",
+    template: "%s | Isaac Alex Kalambo"
   },
-  description: "Full Stack Developer passionate about creating amazing web experiences with modern technologies and clean, efficient code. Explore my projects, skills, and experience.",
-  keywords: ["Full Stack Developer", "React", "Next.js", "TypeScript", "Node.js", "Web Development", "Portfolio"],
-  authors: [{ name: "Isaac Kalambo" }],
-  creator: "Isaac Kalambo",
-  publisher: "Isaac Kalambo",
+  description: "Software Developer & IT Specialist building production web applications for Malawian clients. Expertise in financial platforms, agricultural systems, and healthcare applications using React, Next.js, and Node.js.",
+  keywords: ["Software Developer", "IT Specialist", "Web Developer", "React", "Next.js", "TypeScript", "Node.js", "Financial Platform", "Healthcare System", "Malawi", "Infinity Technologies"],
+  authors: [{ name: "Isaac Alex Kalambo" }],
+  creator: "Isaac Alex Kalambo",
+  publisher: "Isaac Alex Kalambo",
   formatDetection: {
     email: false,
     address: false,
@@ -78,7 +78,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth`}
       >
         <Layout>
           {children}
