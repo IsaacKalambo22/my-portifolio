@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import { Hero, About, Projects, Skills, Contact } from '@/components';
+import { Hero, About, Projects, Skills, Testimonials, Contact } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -17,6 +17,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Testimonials />
       <Skills />
       <Contact />
     </>
