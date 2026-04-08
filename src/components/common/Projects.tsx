@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Button, Card, CardContent, CardDescription, CardHeader, CardTitle, Badge } from '@/components/ui';
-import { Github, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink, Building2 } from 'lucide-react';
 import { projects } from '@/lib/constants';
 
 export default function Projects() {
@@ -10,10 +10,10 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-bold mb-6 text-primary">
-            My Projects
+            Professional Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A collection of projects that showcase my skills and experience in full-stack development.
+            Production web applications built for Malawian businesses and clients, showcasing expertise in financial, agricultural, and healthcare platforms.
           </p>
         </div>
         
@@ -30,13 +30,28 @@ export default function Projects() {
                 />
               </div>
               <CardHeader>
-                <CardTitle>{project.title}</CardTitle>
-                <CardDescription>{project.description}</CardDescription>
+                <div className="flex items-start justify-between">
+                  <div>
+                    <CardTitle>{project.title}</CardTitle>
+                    {project.client && (
+                      <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
+                        <Building2 className="h-4 w-4" />
+                        <span>{project.client}</span>
+                      </div>
+                    )}
+                  </div>
+                  {project.category && (
+                    <Badge variant="outline" className="text-xs">
+                      {project.category}
+                    </Badge>
+                  )}
+                </div>
+                <CardDescription className="mt-2">{project.description}</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (
-                    <Badge key={tech} variant="secondary">
+                    <Badge key={tech} variant="secondary" className="text-xs">
                       {tech}
                     </Badge>
                   ))}

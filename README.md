@@ -1,14 +1,14 @@
-# Isaac Kalambo - Portfolio
+# Isaac Alex Kalambo - Portfolio
 
-A modern, responsive portfolio website showcasing my skills as a Full Stack Developer. Built with Next.js 15, TypeScript, and Tailwind CSS, featuring interactive components and a beautiful UI.
+A modern, professional portfolio website showcasing my work as a Software Developer & IT Specialist. Built with Next.js 15, TypeScript, and Tailwind CSS, featuring real projects, comprehensive experience details, and a polished UI.
 
 ## 🚀 Live Demo
 
-Visit the live portfolio at: [Your Portfolio URL]
+Visit the live portfolio at: [https://my-portifolio-eight-sepia.vercel.app/](https://my-portifolio-eight-sepia.vercel.app/)
 
 ## 👨‍💻 About
 
-I'm Isaac Kalambo, a passionate Full Stack Developer with expertise in modern web technologies. This portfolio showcases my projects, skills, and provides multiple ways for potential clients and collaborators to get in touch.
+I'm Isaac Alex Kalambo, a Software Developer & IT Specialist from Lilongwe, Malawi. Currently working at Infinity Technologies, I build web and mobile applications while managing HR operations. This portfolio showcases my real projects, professional experience, and technical expertise.
 
 **Contact Information:**
 - **Email:** kalamboisaac405@gmail.com
@@ -20,26 +20,32 @@ I'm Isaac Kalambo, a passionate Full Stack Developer with expertise in modern we
 
 ### 🏠 Hero Section
 - Professional profile image and introduction
-- Dynamic role display: "Full Stack Developer"
-- Social media links with hover effects
+- Dynamic role display: "Software Developer & IT Specialist"
+- Social media links (Personal GitHub, Infinity Technologies, LinkedIn, Twitter)
 - Call-to-action buttons
 
 ### 👤 About Section
-- Detailed personal and professional information
-- Skills overview and experience highlights
-- Professional profile image
+- Professional overview and background
+- **Experience Section** with detailed responsibilities:
+  - Infinity Technologies (2023-Present): Software Development & HR
+  - Lilongwe Girls Secondary School (2023): Teaching
+- **Education Section**:
+  - Bachelor of Education in Computer Sciences (University of Malawi, 2019-2025)
+  - MSCE (Matandani Secondary School, 2018)
 
 ### 💼 Projects Showcase
-- **E-Commerce Platform** - Full-stack solution with Next.js, TypeScript, Stripe
-- **Task Management App** - Collaborative app with real-time updates
-- **Weather Dashboard** - Responsive dashboard with location-based forecasts
-- Each project includes: description, tech stack, GitHub links, and live demos
+- **PromptHub** - AI prompt sharing platform with Next.js, MongoDB
+- **CarHub** - Car showcase website with Next.js, TypeScript
+- **Job Finder App** - Flutter mobile app for job opportunities
+- **Learning Progress Tracker** - Development progress tracking system
+- Each project includes: description, tech stack, GitHub links
 
 ### 🛠️ Skills Section
-- **Frontend:** React, Next.js, TypeScript, Tailwind CSS, JavaScript
-- **Backend:** Node.js, Express, Python, FastAPI, REST APIs
-- **Database:** PostgreSQL, MongoDB, Prisma, Supabase
-- **Tools & Others:** Git, Docker, AWS, Vercel, Figma
+- **Frontend Development:** HTML, CSS, JavaScript, React, Next.js, TypeScript, Tailwind CSS
+- **Mobile Development:** Flutter, Dart, React Native
+- **Backend & Databases:** Node.js, MySQL, MongoDB, REST APIs, Firebase
+- **Tools & Technologies:** Git & GitHub, VS Code, Vercel, Microsoft Office, Power BI
+- **Professional Skills:** Software Debugging, Testing & QA, Project Management, HR Management
 
 ### 📞 Enhanced Contact Section
 #### ✅ Interactive Features:
@@ -188,8 +194,34 @@ export const personalInfo = {
   role: "Your Role",
   email: "your.email@example.com",
   bio: "Your bio...",
+  location: "Your Location",
   // ... other details
 };
+```
+
+### Experience & Education
+Add your work experience and education:
+```typescript
+export const experience = [
+  {
+    id: 1,
+    title: "Job Title",
+    company: "Company Name",
+    period: "2023 - Present",
+    location: "City, Country",
+    responsibilities: ["Responsibility 1", "Responsibility 2"]
+  }
+];
+
+export const education = [
+  {
+    id: 1,
+    degree: "Degree Name",
+    institution: "University Name",
+    period: "2019 - 2025",
+    description: "Description..."
+  }
+];
 ```
 
 ### Projects
@@ -204,6 +236,7 @@ export const projects = [
     github: "GitHub URL",
     demo: "Live demo URL",
     image: "/images/project.jpg",
+    featured: true
   },
   // ... more projects
 ];

@@ -5,16 +5,16 @@ import { personalInfo } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn more about Isaac Kalambo\'s journey, experience, and passion for full-stack development. Discover my story and what drives me to create amazing web applications.',
+  description: 'Software Developer at Infinity Technologies with expertise in web and mobile development. Bachelor\'s degree in Computer Sciences from University of Malawi. Experience in React, Next.js, Flutter, and MySQL.',
   openGraph: {
-    title: 'About Isaac Kalambo - Full Stack Developer',
-    description: 'Learn more about Isaac Kalambo\'s journey, experience, and passion for full-stack development.',
+    title: 'About Isaac Alex Kalambo - Software Developer',
+    description: 'Software Developer at Infinity Technologies with expertise in web and mobile development.',
     images: [
       {
         url: personalInfo.profileImage,
         width: 400,
         height: 500,
-        alt: 'Isaac Kalambo - Full Stack Developer',
+        alt: 'Isaac Alex Kalambo - Software Developer',
       },
     ],
   },

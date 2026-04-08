@@ -4,10 +4,10 @@ import { Hero, About, Projects, Skills, Contact } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Home',
-  description: 'Welcome to Isaac Kalambo\'s portfolio. Full Stack Developer passionate about creating amazing web experiences with modern technologies.',
+  description: 'Isaac Alex Kalambo - Software Developer & IT Specialist from Malawi. Building web and mobile applications with React, Next.js, Flutter, and MySQL. Currently at Infinity Technologies.',
   openGraph: {
-    title: 'Isaac Kalambo - Full Stack Developer Portfolio',
-    description: 'Welcome to Isaac Kalambo\'s portfolio. Full Stack Developer passionate about creating amazing web experiences with modern technologies.',
+    title: 'Isaac Alex Kalambo - Software Developer Portfolio',
+    description: 'Software Developer & IT Specialist from Malawi. Building web and mobile applications with modern technologies.',
   },
 };
 

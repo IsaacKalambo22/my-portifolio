@@ -3,11 +3,11 @@ import type { Metadata } from 'next';
 import { Projects } from '@/components';
 
 export const metadata: Metadata = {
-  title: 'Projects',
-  description: 'Explore Isaac Kalambo\'s portfolio of projects showcasing full-stack development skills. From e-commerce platforms to task management apps, discover innovative web solutions.',
+  title: 'Professional Projects',
+  description: 'Production web applications built for Malawian clients: Wealth Bridge (financial platform), TAMA Farmers Trust (agricultural platform), Pacific Diagnostics (healthcare system), and more by Infinity Technologies.',
   openGraph: {
-    title: 'Projects - Isaac Kalambo Portfolio',
-    description: 'Explore Isaac Kalambo\'s portfolio of projects showcasing full-stack development skills.',
+    title: 'Professional Projects - Isaac Alex Kalambo',
+    description: 'Production web applications for financial, agricultural, and healthcare sectors in Malawi.',
   },
 };
 

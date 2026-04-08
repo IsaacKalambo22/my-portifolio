@@ -61,6 +61,7 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-2 hover:scale-110 transform duration-200"
+                title={link.name}
               >
                 {link.icon === 'Github' && <Github className="h-6 w-6" />}
                 {link.icon === 'Linkedin' && <Linkedin className="h-6 w-6" />}
