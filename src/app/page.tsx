@@ -1,6 +1,5 @@
-import React from 'react';
 import type { Metadata } from 'next';
-import { Hero, About, Projects, Skills, Testimonials, Contact } from '@/components';
+import { Hero, About, Projects, Skills, Contact, Testimonials } from '@/components';
 
 export const metadata: Metadata = {
   title: 'Home',
